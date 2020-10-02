@@ -8,12 +8,6 @@
   font-size: 15px;
 }
 
-/* Dark Grayish Magenta: 
-Light Grayish Magenta: 
-
-Very Dark Magenta: 
-Soft Pink:  */
-
 :root {
   --very-dark-purple: hsl(300, 43%, 22%);
   --acid-purple: hsl(333, 80%, 67%);
@@ -24,9 +18,6 @@ Soft Pink:  */
 
 
 /* MAIN CONTENT */
-.bg-img {
- position: absolute;
-}
 
 .main-container {
   background-image: url(../../images/bg-pattern-top-desktop.svg),
@@ -176,3 +167,63 @@ Soft Pink:  */
   opacity: 0.7;
 }
 
+@media (max-width: 900px) {
+.top-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: unset;
+  width: 93vw;
+}
+
+.catching-info {
+  width: unset;
+  text-align: center;
+  padding: 8vh 0 3vh 0;
+}
+
+.catching-info h1 {
+  font-size: 36px;
+}
+
+.catching-info p {
+  margin-top: 25px;
+}
+
+.ratings {
+  width: 95vh;
+  height: 35vh;
+  padding: unset;
+}
+
+#rating-1, #rating-2, #rating-3 {
+  align-self: center;
+}
+.rating {
+  width: 75vw;
+  height: 60px;
+}
+
+.advice {
+  width: 70vw;
+}
+
+.clients-advice {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 85vh;
+  margin-bottom: 20px;
+}
+
+.head-client-advice {
+  display: flex;
+  justify-content: flex-start;
+  height: 5vh;
+  width: 66vw;
+}
+
+#advice-1, #advice-2, #advice-3 {
+  align-self: center;
+}
+}
