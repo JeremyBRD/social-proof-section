@@ -1,15 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
 }
 
+/* Dark Grayish Magenta: 
+Light Grayish Magenta: 
+
+Very Dark Magenta: 
+Soft Pink:  */
+
 :root {
-  --very-dark-purple: #583055;
-  --dark-purple: #511F50;
-  --light-purple: #F7F2F7;
-  --acid-purple: #864678;
-  --light-grey: #CBC9CC;
+  --very-dark-purple: hsl(300, 43%, 22%);
+  --acid-purple: hsl(333, 80%, 67%);
+  --light-purple: hsl(300, 24%, 96%);
+  --light-grey: hsl(303, 10%, 53%);
+  --white: hsl(0, 0%, 100%);
 }
 
 
@@ -47,14 +57,16 @@
 }
 
 .catching-info h1 {
-  font-size: 55px;
-  line-height: 0.9;
+  font-size: 45px;
+  line-height: 1;
   color: var(--very-dark-purple);
 }
 
 .catching-info p {
  color : var(--light-grey);
- margin-top: 10px;
+ margin-top: 15px;
+ font-weight: 500;
+ line-height: 1.7;
 }
 
 /* RATING */
@@ -73,11 +85,15 @@
   display: flex;
   padding: 10px 20px;
   width: 25vw;
-  justify-content: space-around;
+  height: 25px;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .rating p {
-  color: var(--dark-purple);
+  color: var(--very-dark-purple);
+  font-size: 13px;
+  font-weight: 700;
 }
 
 #rating-1 {
@@ -118,10 +134,10 @@
 }
 
 .advice {
-  background-color: var(--dark-purple);
-  padding: 20px 10px;
+  background-color: var(--very-dark-purple);
+  padding: 20px 20px;
   height: 170px;
-  width: 21vw;
+  width: 19vw;
   border-radius: 8px;
   display: flex;
   justify-content: space-evenly;
@@ -140,16 +156,20 @@
   margin-right: 20px;
 }
 
-.advice p {
+.advice p>em {
   color: var(--light-purple);
   width: 19vw;
+  font-size: 12px;
 }
 
 .advice h3 {
   color: var(--light-purple);
+  font-size: 12px;
 }
 
 .client-heading p {
   color: var(--acid-purple);
+  font-size: 12px;
+  margin-top: 5px;
 }
 
