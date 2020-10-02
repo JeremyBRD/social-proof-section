@@ -38,8 +38,15 @@
 }
 
 /* CATCHING TEXT */
+.catching-info {
+  width: 30vw;
+}
 
 /* RATING */
+.ratings{
+  width: 50vw;
+}
+
 .stars i {
   color: gold;
 }
@@ -53,13 +60,24 @@
   width: 80vw;
 }
 
+#advice-1 {
+  align-self: flex-start;
+}
+
+#advice-2 {
+  align-self: center;
+}
+
+#advice-3 {
+  align-self: flex-end;
+}
+
 .advice {
   background-color: var(--dark-purple);
   padding: 20px 10px;
   height: 170px;
   width: 300px;
   border-radius: 8px;
-
 }
 
 .head-client-advice {
@@ -70,3 +88,16 @@
   height: 40px;
   border-radius: 50%;
 }
+
+.advice em {
+  color: var(--light-purple);
+}
+
+.advice h3 {
+  color: var(--light-purple);
+}
+
+.client-heading p {
+  color: var(--acid-purple);
+}
+
