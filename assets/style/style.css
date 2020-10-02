@@ -200,7 +200,7 @@
   align-self: center;
 }
 .rating {
-  width: 75vw;
+  width: unset;
   height: 60px;
   flex-direction: column;
 }
