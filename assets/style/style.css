@@ -35,6 +35,8 @@
 
 .top-content {
   display: flex;
+  align-items: center;
+  justify-content: center;
   height: 40vh;
   margin-bottom: 5vh;
 }
@@ -64,6 +66,7 @@
 .ratings{
   box-sizing: border-box;
   width: 40vw;
+  height: -webkit-fill-available;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -191,7 +194,7 @@
   }
 
   .ratings {
-    width: 95vh;
+    width: unset;
     height: 35vh;
     padding: unset;
   }
@@ -200,7 +203,7 @@
     align-self: center;
   }
   .rating {
-    width: unset;
+    width: 250px;
     height: 60px;
     flex-direction: column;
   }
@@ -222,7 +225,7 @@
     display: flex;
     justify-content: flex-start;
     height: 5vh;
-    width: 66vw;
+    width: -webkit-fill-available;
   }
 
   #advice-1, #advice-2, #advice-3 {
